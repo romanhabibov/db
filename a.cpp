@@ -5,7 +5,7 @@ namespace options
 {
 	constexpr size_t size = 8192;
 	constexpr size_t block_size = 256;
-	constexpr size_t divider = 32;
+	constexpr size_t divider = size / block_size;
 }
 
 class Timer
