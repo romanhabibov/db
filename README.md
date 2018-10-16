@@ -1,4 +1,4 @@
-# db1
+# db
 g++ a.cpp -std=c++11
 
 block_size = 256
